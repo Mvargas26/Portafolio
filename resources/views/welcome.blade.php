@@ -34,10 +34,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/{{$proyecto->imagen}}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">{{ $proyecto->descripcion }}</p>
-                                    <button class="btn btn-secondary" data-bs-dismiss="modal">
-                                        <i class="fas fa-xmark fa-fw"></i>
-                                        Ir
-                                    </button>
+                                    <a href="{{$proyecto -> url}}" target="_blank" type="button" class="btn btn-info">Ir</a>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Cerrar
