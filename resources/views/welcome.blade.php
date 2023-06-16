@@ -2,20 +2,13 @@
 
 @section('content')
     @foreach ($proyectos as $proyecto)
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>{{ $proyecto->url }}</td>
-        </tr>
-
-         <!-- Portfolio Item 1-->
+                <!-- Portfolio Item 1-->
          <div class="col-md-6 col-lg-4 mb-5">
             <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1{{$proyecto->id}}">
                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img class="img-fluid" src="img/imgProyectos/{{ $proyecto->imagen }}" alt="..." />
+                <img class="img-fluid" src="assets/img/portfolio/{{$proyecto->imagen}}" alt="..." />
             </div>
         </div>
 
@@ -38,9 +31,13 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="{{ $proyecto->imagen }}" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/{{$proyecto->imagen}}" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">{{ $proyecto->descripcion }}</p>
+                                    <button class="btn btn-secondary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Ir
+                                    </button>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Cerrar
