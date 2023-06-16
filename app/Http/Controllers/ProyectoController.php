@@ -16,6 +16,12 @@ class ProyectoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+     //con esto utiliza la autentificacion
+     public function __construct()
+     {
+         $this->middleware('auth');
+     }
     public function index()
     {
         $proyectos = Proyecto::paginate();
