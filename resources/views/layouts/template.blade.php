@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Freelancer - Start Bootstrap Theme</title>
+        <title>Michael Vargas - Portafolio</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -183,8 +183,8 @@
                     <!-- Footer Social Icons-->
                     <div class="col-lg-6 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Redes Sociales</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/michael-vargas-soto-59219820a"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Mvargas26"><i class="fa-brands fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/michael-vargas-soto-59219820a" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Mvargas26" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                     <!-- Footer About Text-->
                    
