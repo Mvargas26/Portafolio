@@ -1,6 +1,17 @@
+/*Estilo de la imagen Avatar en Template linea 42*/
 .avatar {
     vertical-align: middle;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+  }
+
+  /*Cambio a Gradiante en Template/header linea 39 */
+  .masthead {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,140,1) 32%, rgba(0,212,255,1) 100%);
+  }
+
+
+  #about {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,140,1) 32%, rgba(0,212,255,1) 100%);
   }
